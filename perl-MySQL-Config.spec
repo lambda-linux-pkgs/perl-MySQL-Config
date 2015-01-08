@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-MySQL-Config
 Version:        1.04
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Parse and utilize MySQL's /etc/my.cnf and ~/.my.cnf files
 License:        GPL+ or Artistic
 Group:          Development/Libraries
