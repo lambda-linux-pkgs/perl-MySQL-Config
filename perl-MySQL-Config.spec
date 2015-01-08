@@ -15,6 +15,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $versi
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Parse and utilize MySQL's /etc/my.cnf and ~/.my.cnf files
 
 %prep
