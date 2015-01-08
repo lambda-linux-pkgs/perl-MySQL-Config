@@ -46,4 +46,7 @@ make test
 
 %changelog
 * Thu Jan 08 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.04-1
+- Adapt for AL/LL
+- Add package support URL
 - Add initial spec file
+- Import `MySQL-Config-1.04.tar.gz`
